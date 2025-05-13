@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-three: #7b68ee;
+    --color-one: #add8e6;
+    --color-two: #87ceeb;
+    --color-threeA: #7b68ee;
+    --color-four: #4682b4;
+    --color-five: #5f9ea0;
+    --color-six: #008080;
+    --color-seven: #6a5acd;
+    --color-eight: #e6e6fa;
+    --color-nine: #9370db;
+    --color-ten: #483d8b;
+    --color-eleven: #eee8aa;
+    --color-twelve: #bdb76b;
+    --color-thirteen: #2e8b57;
+    --color-thirteen: #008080;
+    --color-thirteen: #6b8e23;
+    --color-thirteen: #f08080;
+    --color-thirteen: #cd5c5c;
+    --color-thirteen: #b22222;
+    --color-thirteen: #ff8c00;
+    --color-forteen: #BDB3F6;
+    --primary-color: #1F2937;
+    --sub-primary-color: #4E596F;
+    --sub-sub-primary-color: #e6eeff90;
+    --buttonC: #ffd428;
+    --buttonA: #27AE60;
+    --buttonB: #F66165;
+}
+
+body {
+    font-family: tahoma;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-image: url(assets/table.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+h3,
+h4 {
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+
+.messege {
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    padding: 5px 0;
+}
+
+h4 {
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.btns {
+    width: 100%;
+    text-align: center;
+}
+
+.btns button {
+    min-width: 150px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    transition: .3s;
+    font-weight: bold;
+    margin: 5px auto;
+    opacity: .5;
+    pointer-events: none;
+    display: block;
+}
+
+button.active {
+    cursor: pointer;
+    opacity: 1;
+    pointer-events: all;
+}
+
+.btns button:hover {
+    transform: translateY(-5px) scale(1.08);
+}
+
+button.start {
+    background-color: var(--buttonA);
+}
+
+button.hit {
+    background-color: var(--buttonC);
+}
+
+button.stop {
+    background-color: var(--buttonB);
+}
+
+.player {
+    padding: 10px;
+    text-align: center;
+}
+
+.player p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+@media (max-width: 778px) {}
